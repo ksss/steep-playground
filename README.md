@@ -1,6 +1,8 @@
 Ruby Steep Playground
 =====
 
+Playground for [Steep](https://github.com/soutaro/steep) with your editor.
+
 # How to Play
 
 ```
