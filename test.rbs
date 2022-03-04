@@ -1,0 +1,10 @@
+class Sample
+  def int: () -> Integer
+  def str: () -> String
+  def ary: () -> Array[String]
+end
+
+class SampleCollection
+  include Enumerable[Sample]
+  def each: () { (Sample) -> void } -> self
+end
