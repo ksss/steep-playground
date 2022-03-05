@@ -2,17 +2,12 @@ require 'net/http'
 
 # Use stdlib
 
-puts "# Print HTTP HEADER"
-
-res = Net::HTTP.get_response(URI.parse("https://www.google.co.jp/"))
-res.each_header do |key, value|
-  puts "#{key}: #{value}"
-end
-puts
-
-puts "# Print Content"
-puts "Digest: #{Digest::MD5.hexdigest(res.body)}"
-puts
+url = URI.parse('http://www.example.com/index.html')
+req = Net::HTTP::Get.new(url.path)
+res = Net::HTTP.start(url.host, url.port) {|http|
+  http.request(req)
+}
+res.body
 
 # Custom definition
 
