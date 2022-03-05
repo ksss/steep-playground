@@ -1,6 +1,6 @@
-target :test do
-  check "test.rb"
-  signature "test.rbs"
+target :sample do
+  check "sample.rb"
+  signature "sample.rbs"
 
   configure_code_diagnostics(Steep::Diagnostic::Ruby.all_error)
   # configure_code_diagnostics do |hash|
