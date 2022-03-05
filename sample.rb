@@ -23,6 +23,10 @@ class Sample
   def ary
     ["Hello", "World!"]
   end
+
+  def record
+    { int: 123, str: "YO" }
+  end
 end
 
 class SampleCollection
