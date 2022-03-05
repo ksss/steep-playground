@@ -34,7 +34,6 @@ gems:
   - name: monitor
   - name: mutex_m
   - name: net-http
-  - name: nkf
   - name: objspace
   - name: openssl
   - name: optparse
