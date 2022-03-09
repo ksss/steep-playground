@@ -9,7 +9,7 @@ Playground for [Steep](https://github.com/soutaro/steep) with your editor.
 $ git clone https://github.com/ksss/steep-playground.git
 $ cd steep-playground
 $ bundle install
-$ rbs collection install
+$ bundle exec rbs collection install
 ```
 
 # Editor Support
