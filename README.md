@@ -36,6 +36,6 @@ Please help!
 
 ## Emacs
 
-Maybe use https://github.com/ybiquitous/lsp-steep ?
+Maybe use https://github.com/emacs-lsp/lsp-mode ?
 
 Please help!
