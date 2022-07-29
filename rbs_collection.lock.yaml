@@ -11,7 +11,15 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 6320a194c85afbf4ff332c3eb75fcae2a6518c92
+    revision: e59b7d94d326a1ac66c6bce8cb82cbabf1734726
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
+- name: nokogiri
+  version: '1.11'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: e59b7d94d326a1ac66c6bce8cb82cbabf1734726
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: abbrev
@@ -207,7 +215,15 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 6320a194c85afbf4ff332c3eb75fcae2a6518c92
+    revision: e59b7d94d326a1ac66c6bce8cb82cbabf1734726
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
+- name: i18n
+  version: '1.10'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: e59b7d94d326a1ac66c6bce8cb82cbabf1734726
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: listen
@@ -215,15 +231,19 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 6320a194c85afbf4ff332c3eb75fcae2a6518c92
+    revision: e59b7d94d326a1ac66c6bce8cb82cbabf1734726
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
+- name: minitest
+  version: '0'
+  source:
+    type: stdlib
 - name: parallel
   version: '1.20'
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 6320a194c85afbf4ff332c3eb75fcae2a6518c92
+    revision: e59b7d94d326a1ac66c6bce8cb82cbabf1734726
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: rainbow
@@ -231,6 +251,6 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 6320a194c85afbf4ff332c3eb75fcae2a6518c92
+    revision: e59b7d94d326a1ac66c6bce8cb82cbabf1734726
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems

@@ -10,6 +10,7 @@ path: .gem_rbs_collection
 
 gems:
   - name: activesupport
+  - name: nokogiri
 
   - name: abbrev
   - name: base64
@@ -62,4 +63,6 @@ gems:
   # Skip loading rbs gem's RBS.
   # It's unnecessary if you don't use rbs as a library.
   - name: rbs
+    ignore: true
+  - name: steep
     ignore: true

@@ -1,8 +1,15 @@
+class Super
+end
+
 class Sample
+end
+
+class Sample < Super
+  Base: singleton(Integer)
   def int: () -> Integer
   def str: () -> String
   def ary: () -> Array[String]
-  def record: () -> { int: Integer, str: String }
+  def record: () -> { int0_0: Integer, str: String }
 end
 
 class SampleCollection

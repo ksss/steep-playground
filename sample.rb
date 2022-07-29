@@ -3,11 +3,13 @@ require 'net/http'
 # Use stdlib
 
 url = URI.parse('http://www.example.com/index.html')
-req = Net::HTTP::Get.new(url.path)
-res = Net::HTTP.start(url.host, url.port) {|http|
-  http.request(req)
-}
-res.body
+if url.path && url.host
+  req = Net::HTTP::Get.new(url.path)
+  res = Net::HTTP.start(url.host, url.port) {|http|
+    http.request(req)
+  }
+  res.body
+end
 
 # Custom definition
 
@@ -46,3 +48,7 @@ collection.each do |sample|
     puts s.upcase
   end
 end
+
+Time.current.beginning_of_day.to_s
+
+1.days.ago
